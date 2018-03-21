@@ -4,6 +4,7 @@
 var http = require("http");
 var fs = require("fs");
 var extract = require("./extract");
+// eslint-disable-next-line
 var wss = require("./websockets-server");
 var mime = require("mime");
 var handleError = function (err, res) {
